@@ -26,4 +26,4 @@
 # comandos para mejorar la seguridad y el manejo de datos de sesiones
 - [] npm install --save @nestjs/jwt passport-jwt
 - [] npm install --save-dev @types/passport-jwt
-- [] npm install bcrypt
+- [] npm install --save bcrypt
