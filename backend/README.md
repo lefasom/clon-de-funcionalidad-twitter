@@ -20,10 +20,10 @@
 - [x] npx prisma init -datasource-provider sqlite
 - [x] npx prisma migrate dev --name init
 
-# Environment variables declared in this file are automatically made available to Prisma.
-# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
+# configuro Postgresql (variable de entorno) 
+- [x] DATABASE_URL="postgresql://neondb_owner:*******************@ep-wild-shape-a5z5scny-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
 
-# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
-# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
-
-### DATABASE_URL="postgresql://neondb_owner:*******************@ep-wild-shape-a5z5scny-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
+# comandos para mejorar la seguridad y el manejo de datos de sesiones
+- [] npm install --save @nestjs/jwt passport-jwt
+- [] npm install --save-dev @types/passport-jwt
+- [] npm install bcrypt
