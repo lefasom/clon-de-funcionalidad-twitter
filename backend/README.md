@@ -27,3 +27,9 @@
 - [] npm install --save @nestjs/jwt passport-jwt
 - [] npm install --save-dev @types/passport-jwt
 - [] npm install --save bcrypt
+
+### si realizas un git clone
+- [x] npm install 
+- [x] crear un .env
+- [x] borrar migrate
+- [x] npx prisma migrate dev --name init
